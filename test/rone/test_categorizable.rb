@@ -11,10 +11,6 @@ class CategorizableTest < RoneTest
     @post_sell.category = "article"
     refute @post_sell.valid?
     assert_includes @post_sell.errors[:category], 'article is not a valid category'
-    Post.create!(title: "Hello world", content: "HHAHA", category: :sell)
-    Post.create!(title: "Hello world", content: "HHAHA", category: :sell)
-    Post.create!(title: "Hello world", content: "HHAHA", category: :sell)
-    puts Post.all.count
   end
 
   test "categorizable_on" do
