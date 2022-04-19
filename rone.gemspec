@@ -5,7 +5,6 @@ Gem::Specification.new do |s|
   s.authors = ['Yuanchen Zhang']
   s.email = 'alfmunny@gmail.com'
   s.files = Dir["lib/**/*", "README.md", "LICENSE"]
-  puts s.files
   s.homepage = 'https://github.com/alfmunny/rone'
   s.license = 'MIT'
 
