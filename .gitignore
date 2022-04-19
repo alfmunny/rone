@@ -1,1 +1,4 @@
 *.gem
+*.log
+*.sqlite3
+test/rails_api/tmp/*

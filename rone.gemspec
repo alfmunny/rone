@@ -7,4 +7,7 @@ Gem::Specification.new do |s|
   s.files = ['lib/rone.rb', 'lib/rone/categorizable.rb']
   s.homepage = 'https://github.com/alfmunny/rone'
   s.license = 'MIT'
+
+  s.add_development_dependency 'database_cleaner'
 end
+
